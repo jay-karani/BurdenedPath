@@ -11,12 +11,17 @@ config_version=5
 [application]
 
 config/name="BurdenedPath"
+<<<<<<< Updated upstream
 run/main_scene="uid://cb71b3ou8v6gr"
+=======
+run/main_scene="uid://d4m0jsp8yxalx"
+>>>>>>> Stashed changes
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 
 [display]
 
+<<<<<<< Updated upstream
 window/size/viewport_width=1920
 window/size/viewport_height=1080
 window/stretch/mode="canvas_items"
@@ -57,6 +62,10 @@ clearGhosts={
 [physics]
 
 2d/default_gravity=2500.0
+=======
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+>>>>>>> Stashed changes
 
 [rendering]
 

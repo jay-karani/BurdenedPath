@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dupqkumu3gnlq"
-path="res://.godot/imported/Checkpoint (Flag Out) (64x64).png-6fd02ce9e591d591df68ee004f4fd3db.ctex"
+uid="uid://ds6yyl4p8nlmt"
+path="res://.godot/imported/cooltext492379244481168.png-18c87abd9390204a41f682265ba1edd0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Free/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png"
-dest_files=["res://.godot/imported/Checkpoint (Flag Out) (64x64).png-6fd02ce9e591d591df68ee004f4fd3db.ctex"]
+source_file="res://Assets/cooltext492379244481168.png"
+dest_files=["res://.godot/imported/cooltext492379244481168.png-18c87abd9390204a41f682265ba1edd0.ctex"]
 
 [params]
 

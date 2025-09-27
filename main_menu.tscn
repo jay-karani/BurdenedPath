@@ -1,0 +1,94 @@
+[gd_scene load_steps=6 format=3 uid="uid://d4m0jsp8yxalx"]
+
+[ext_resource type="Texture2D" uid="uid://ds6yyl4p8nlmt" path="res://Assets/cooltext492379244481168.png" id="1_fu7sn"]
+[ext_resource type="Texture2D" uid="uid://b861vt8kmk3da" path="res://Assets/Free/Background/6MG0aX.png" id="2_jix8l"]
+[ext_resource type="FontFile" uid="uid://7xqstd2jwbgc" path="res://Assets/Free/pixel-game.regular.otf" id="3_glbon"]
+
+[sub_resource type="Theme" id="Theme_nlkkf"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qe12f"]
+
+[node name="main_menu" type="Node"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -542.0
+offset_top = -108.5
+offset_right = 542.0
+offset_bottom = 14.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 0
+texture = ExtResource("1_fu7sn")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+modulate = Color(1.662146, 1.662146, 1.662146, 1)
+z_index = -3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_nlkkf")
+texture = ExtResource("2_jix8l")
+stretch_mode = 1
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -461.0
+offset_top = -200.0
+offset_right = -188.0
+offset_bottom = -120.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_glbon")
+theme_override_font_sizes/font_size = 75
+theme_override_styles/normal = SubResource("StyleBoxEmpty_qe12f")
+text = "Tutorial"
+
+[node name="Button" type="Button" parent="Button"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 204.0
+offset_top = -77.0
+offset_right = 450.0
+offset_bottom = 3.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_glbon")
+theme_override_font_sizes/font_size = 75
+theme_override_styles/normal = SubResource("StyleBoxEmpty_qe12f")
+text = "Level 1"
+
+[node name="Button" type="Button" parent="Button/Button"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 214.0
+offset_top = -81.0
+offset_right = 460.0
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_glbon")
+theme_override_font_sizes/font_size = 75
+theme_override_styles/normal = SubResource("StyleBoxEmpty_qe12f")
+text = "Level 2"
